@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+<image src='../../images/index.jpg'></image>
+<view class='intro'>
+<view  class='intro0'>参保对象</view>
+<view class='intro1'>70周岁以内，在二级以上（含二级）医院等待接受手术的病员，均可作为被保险人。急诊手术、住院非择期手术、危重患者，不能投保。</view>
+</view>
+<view class='intro'>
+ <view class='intro0'>保险期间</view> 
+<view class='intro1'>门诊就医者，保险期间自被保险人实际接受择期手术起自其诊毕离开医院或者办妥住院手续当日二十四时止，最长为一百八十天。住院治疗者，保险期间自被保险人实际接受手术时起至办妥出院手续当日二十四时止，最长为一百八十日。</view> 
+</view>
+
+<!-- <picker bindchange="bindPickerChange" value="{{areaIndex}}" range="{{area}}">  
+    <view class="picker">  
+      当前选择：{{area[areaIndex]}} > 
+    </view>  
+</picker>   -->
+<button bindtap="redirectMain" type="primary" disabled="{{buttonDisabled}}" loading="{{loading}}">立刻投保</button>
+
+</view>

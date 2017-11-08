@@ -1,0 +1,3 @@
+<!--pages/main/main.wxml-->
+<text>pages/main/main.wxml</text>
+<web-view src="https://www.fc18.com.cn/h5/category/OIUC/products.html?deviceId=0B02A23A505548488077805216236796&pcode=AYB00301&dcode=Hosp_Test_Dept_Spinal&cCode=B&fCode=GTE1500&uuid=52c838e1-c3d6-4013-aab7-3379c25d1a79"></web-view>

@@ -1,0 +1,42 @@
+/**index.wxss**/
+page{
+  background: #eee;
+}
+image{
+  width: 100%;
+ position: relative;
+  top:0;
+  height: 30vh
+}
+.container{
+  position: relative;
+  top: 0
+
+}
+.intro{
+  background: #fff;
+  text-align: center;
+  font-size: 4vw;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.intro1{
+  margin-top: 10px;
+  text-align: left;
+  text-indent:15px;
+}
+.intro0{
+   border-bottom: 1px #eee solid;
+   padding-bottom: 10px;
+}
+.picker{
+  margin-top: 10px;
+  padding: 15px;
+  
+}
+button{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  border-radius: 0;
+}
